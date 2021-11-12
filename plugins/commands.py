@@ -80,7 +80,7 @@ async def start(bot, message):
         caption=Translation.START_TEXT.format(
                 message.from_user.mention, DEV_USERNAME),
         reply_markup=InlineKeyboardMarkup([[
-              InlineKeyboardButton('➕ Add Me To Your Groups ➕', url='http://t.me/donlee_robot?startgroup=true')
+              InlineKeyboardButton('➕ Add Me To Your Groups ➕', url='http://t.me/ADX_AutoFilter_Bot?startgroup=true')
               ],[
               InlineKeyboardButton(GROUP, url=HAAAAAAAAA),
               InlineKeyboardButton(CHANNEL, url=CHANNEL_LINK)
