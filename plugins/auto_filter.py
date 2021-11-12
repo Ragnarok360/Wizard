@@ -1415,7 +1415,7 @@ async def cb_set(bot, update: CallbackQuery):
     
     prev = await db.find_chat(chat_id)
 
-    accuracy = float(prev["configs"].get("accuracy", 0.80))
+    accuracy = float(prev["configs"].get("accuracy", 0.55))
     max_pages = int(prev["configs"].get("max_pages"))
     max_results = int(prev["configs"].get("max_results"))
     max_per_page = int(prev["configs"].get("max_per_page"))
