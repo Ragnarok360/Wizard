@@ -246,8 +246,8 @@ async def cb_handler(client, query):
                          InlineKeyboardButton("🤠 Status 🤠", callback_data="ooooooooo")
                    ],
                    [
-                         InlineKeyboardButton("🏕️ Home", callback_data="start"),
-                         InlineKeyboardButton("🗑️ Close 🗑️", callback_data="close"),
+                         InlineKeyboardButton("🏠 Home", callback_data="start"),
+                         InlineKeyboardButton("Close ❌", callback_data="close"),
                          InlineKeyboardButton(" About 🔥", callback_data="about")
                    ]
                ]
@@ -329,12 +329,8 @@ async def cb_handler(client, query):
         await query.message.edit_text(Translation.SOURCE_TEXT, reply_markup=InlineKeyboardMarkup(
                [
                    [
-                       InlineKeyboardButton('☢️Frok', url='https://github.com/PR0FESS0R-99/DonLee-Robot-V2/fork'),
-                       InlineKeyboardButton('🌟Star', url='https://github.com/PR0FESS0R-99/DonLee-Robot-V2/stargazers')
-                   ],
-                   [
-                       InlineKeyboardButton('🏵Repo', url='https://youtu.be/NrbMc93aCzA'),
-                       InlineKeyboardButton('🧩Deplow', url='https://youtu.be/NrbMc93aCzA')
+                       InlineKeyboardButton('Channel', url='https://t.me/movie_hut_channel'),
+                       InlineKeyboardButton('Group ♻', url='https://t.me/SS07MOVIEHUT')
                    ],
                    [
                        InlineKeyboardButton("🔙 Back 🔙", callback_data="about")
@@ -369,24 +365,8 @@ async def cb_handler(client, query):
         await query.message.edit_text(Translation.CREDITS_TEXT, reply_markup=InlineKeyboardMarkup(
                [
                    [
-                       InlineKeyboardButton("TroJanzHEX", url="https://github.com/TroJanzHEX"),
-                       InlineKeyboardButton("Use", url="https://github.com/TroJanzHEX/Unlimited-Filter-Bot")
-                   ],
-                   [
-                       InlineKeyboardButton("CrazyBotsz", url="https://github.com/CrazyBotsz"),
-                       InlineKeyboardButton("Use", url="https://github.com/CrazyBotsz/Adv-Auto-Filter-Bot-V2")
-                   ],
-                   [
-                       InlineKeyboardButton("bughunter0", url="https://github.com/bughunter0"),
-                       InlineKeyboardButton("Use", url="https://github.com/bughunter0/ban-bot")
-                   ],
-                   [
-                       InlineKeyboardButton("Pr0fess0r-99", url="https://github.com/Pr0fess0r-99"),
-                       InlineKeyboardButton("Use", url="https://github.com/Pr0fess0r-99/Auto-Welcome-Bot")
-                   ],
-                   [
-                       InlineKeyboardButton("EvamariaTG", url="https://github.com/EvamariaTG"),
-                       InlineKeyboardButton("Use", url="https://github.com/EvamariaTG/EvaMaria")
+                       InlineKeyboardButton("Channel", url="https://t.me/movie_hut_channel"),
+                       InlineKeyboardButton("Group ♻", url="https://t.me/SS07MOVIEHUT")
                    ],
                    [
                        InlineKeyboardButton("🔙 back 🔙", callback_data="devmuhammed")
@@ -398,32 +378,16 @@ async def cb_handler(client, query):
         await query.message.edit_text(Translation.CREDITS_TEXT, reply_markup=InlineKeyboardMarkup(
                [
                    [
-                       InlineKeyboardButton("TroJanzHEX", url="https://github.com/TroJanzHEX"),
-                       InlineKeyboardButton("Use", url="https://github.com/TroJanzHEX/Unlimited-Filter-Bot")
-                   ],
-                   [
-                       InlineKeyboardButton("CrazyBotsz", url="https://github.com/CrazyBotsz"),
-                       InlineKeyboardButton("Use", url="https://github.com/CrazyBotsz/Adv-Auto-Filter-Bot-V2")
-                   ],
-                   [
-                       InlineKeyboardButton("bughunter0", url="https://github.com/bughunter0"),
-                       InlineKeyboardButton("Use", url="https://github.com/bughunter0/ban-bot")
-                   ],
-                   [
-                       InlineKeyboardButton("Pr0fess0r-99", url="https://github.com/Pr0fess0r-99"),
-                       InlineKeyboardButton("Use", url="https://github.com/Pr0fess0r-99/Auto-Welcome-Bot")
-                   ],
-                   [
-                       InlineKeyboardButton("EvamariaTG", url="https://github.com/EvamariaTG"),
-                       InlineKeyboardButton("Use", url="https://github.com/EvamariaTG/EvaMaria")
+                       InlineKeyboardButton("Channel", url="https://t.me/movie_hut_channel"),
+                       InlineKeyboardButton("Group ♻", url="https://t.me/SS07MOVIEHUT")
                    ],
                    [
                        InlineKeyboardButton("🔙 back 🔙", callback_data="source")
                    ],
                    [
-                       InlineKeyboardButton("🏕️ Home", callback_data="start"),
+                       InlineKeyboardButton("🏠 Home", callback_data="start"),
                        InlineKeyboardButton(" About 🔥", callback_data="about"),
-                       InlineKeyboardButton("Close 🗑️", callback_data="close")
+                       InlineKeyboardButton("Close ❌", callback_data="close")
                    ]
                ]
            )
