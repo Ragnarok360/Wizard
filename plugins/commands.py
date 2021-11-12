@@ -148,11 +148,11 @@ async def about(bot, message):
                     [
                          InlineKeyboardButton
                              (
-                                 "🏕️ Home", callback_data="start"
+                                 "🏠 Home", callback_data="start"
                              ),
                          InlineKeyboardButton
                              (
-                                 "Close 🗑️", callback_data="close"
+                                 "Close ❌", callback_data="close"
                              )
                     ]
                 ]
@@ -181,19 +181,19 @@ async def sub(bot, message):
                     [
                          InlineKeyboardButton
                              (
-                                 "😟 Build a New Bot 😟", url="https://youtu.be/NrbMc93aCzA"
+                                 "♻ Group ♻", url="https://t.me/SS07MOVIEHUT"
                              )
                     ],
                     [
                          InlineKeyboardButton
                              (
-                                 "💥Subscribe youtube Channel💥", url="https://www.youtube.com/c/MoTech_YT"
+                                 "⭐ Channel ⭐", url="https://t.me/movie_hut_channel"
                              )
                     ],
                     [
                          InlineKeyboardButton
                              (
-                                 "🗑️ Close 🗑️", callback_data="close"
+                                 "Close ❌", callback_data="close"
                              )
                     ]
                 ]
